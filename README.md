@@ -17,4 +17,4 @@ As usual [Webshot cli tool] tool, `[--custom-header=<header>]... [options] [<url
 Only difference is that you can be free from installing npm and phantomjs on your machine.
 You can use it via:
 * A special sh script `webshot.sh [--custom-header=<header>]... [options] [<url>] [<dest>]`
-* Basic docker run command (as 1000:1000): `docker run --user 1000:1000 -v $PWD:/res eyudkin/webshot-cli [--custom-header=<header>]... [options] [<url>] [<dest>]`
+* Basic docker run command (as 1000:1000): `docker run --user 1000:1000 -v $PWD:/res eyudkin/webshot-cli [--custom-header=<header>]... [options] [<url>] /res/[<dest>]`
